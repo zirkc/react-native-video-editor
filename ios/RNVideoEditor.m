@@ -1,5 +1,6 @@
 
 #import "RNVideoEditor.h"
+//Zirk
 
 @implementation RNVideoEditor
 
@@ -16,7 +17,6 @@ RCT_EXPORT_METHOD(merge:(NSArray *)fileNames
     NSLog(@"%@ %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
     
     [self MergeVideo:fileNames callback:successCallback];
-    
     //successCallback(@[@"merge video", fileNames[0]]);
 }
 
