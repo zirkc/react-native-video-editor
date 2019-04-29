@@ -1,6 +1,6 @@
 
 #import "RNVideoEditor.h"
-//Zirk
+//Zirk2
 
 @implementation RNVideoEditor
 
